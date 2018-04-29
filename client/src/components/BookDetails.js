@@ -11,7 +11,7 @@ const BookDetails = props => {
   }
 
   return (
-    <div style={{ padding: '10px 0' }}>
+    <div style={{ padding: '10px 0px' }}>
       {!props.data.loading ? (
         <React.Fragment>
           <b>Book Details:-</b>
